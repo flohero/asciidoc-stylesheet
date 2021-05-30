@@ -11,6 +11,11 @@ font:
       bold: WorkSans-Bold.ttf
       italic: WorkSans-Italic.ttf
       bold_italic: WorkSans-BoldItalic.ttf
+    Rubik:
+      normal: Rubik-Regular.ttf
+      bold: Rubik-SemiBold.ttf
+      italic: Rubik-Italic.ttf
+      bold_italic: Rubik-BoldItalic.ttf
     Jetbrains Mono:
       normal: JetBrainsMono-Regular.ttf
       bold: JetBrainsMonoNL-Bold.ttf
@@ -32,8 +37,8 @@ font:
   fallbacks:
     - M+ 1p Fallback
 base:
-  font_family: Work Sans
-  font_color: #333333
+  font_family: Rubik
+  font_color: #2e3440
   line_height_length: 17
   line_height: $base_line_height_length / $base_font_size
 title_page:
@@ -46,20 +51,20 @@ page:
   size: A4
 vertical_rhythm: $base_line_height_length
 heading:
-  font-family: Raleway
-  font_color: #930020
+  font-family: Rubik
+  font_color: #5e81ac
   font_size: 18
-  font_style: normal
+  font_style: bold
   line_height: 1.2
   margin_bottom: $vertical_rhythm
   image_vertical_align: top
 link:
-  font_color: #961d4e
+  font_color: #8fbcbb
   text_decoration: underline
 outline_list:
   indent: $base_font_size * 1.5
 header:
-  font-family: Raleway
+  font-family: Rubik
   height: 0.75in
   line-height: 1
   recto:
@@ -81,21 +86,25 @@ footer:
   line-height: 1
   recto:
     right:
-      content: '{section-title} | *{page-number}*'
+      content: '*{page-number}*'
+    left: 
+      content: '{section-title}'
   verso:
-    left:
-      content: '*{page-number}* | {section-title}'
+    right:
+      content: '*{page-number}*'
+    left: 
+      content: '{section-title}'
 image:
   align: center
 table:
   caption_side: bottom
 caption:
   side: left
-  font_family: Raleway
-  font_color: #930020
+  font_family: Rubik
+  font_color: #4c566a
   font_size: 10
 literal:
-  font_color: #961d4e
+  font_color: #b48ead
   font_family: Jetbrains Mono
 code:
   font_family: Jetbrains Mono
