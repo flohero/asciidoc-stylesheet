@@ -1,0 +1,12 @@
+= Asciidoc-Stylsheet
+== base-them.yml
+A simple PDF Stylesheet, with a Nord Theme.
+
+== auto-includes.sh
+Generate auto includes for a start directory and a specific extension
+
+[source,shell]
+----
+./auto-includes.sh [start] [extenstion]
+./auto-includes.sh ./ "sh"
+----
