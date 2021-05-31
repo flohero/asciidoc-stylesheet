@@ -2,6 +2,8 @@
 == base-them.yml
 A simple PDF Stylesheet, with a Nord Theme.
 
+To include the stylesheet: `asciidoctor-pdf -a pdf-theme=./basic-theme.yml *.adoc`
+
 == auto-includes.sh
 Generate auto includes for a start directory and a specific extension
 
